@@ -1,0 +1,391 @@
+/*
+Theme Name: Hmk Emc Child
+Theme URI: http://builder.zooka.com
+Template:    hmkemc
+Author: Zooka Team
+Author URI: http://zooka.io
+Description: The best construction theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hmk-emc
+Tags: blue, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+body {
+    background: url(images/home-slider/slide1.jpg) no-repeat;
+	transition: background 0.5s linear; 
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+    
+    
+.pages-uslugi{min-height:900px;} 
+.uslugi{width:170px;height:170px;border:2px solid #00a3d3; border-radius:50%;text-align:center;line-height:160px;margin:0 auto;margin-bottom:15px;transition: all .51s;} 
+.uslugi-box:hover .uslugi{border-radius:10%}
+
+.dlaczego .img-dlaczego-hover, .dlaczego .img-dlaczego{margin:0 20px;padding-bottom:40px;}
+
+.dlaczego .img-dlaczego{display:block;}
+.dlaczego .img-dlaczego-hover{display:none; }
+.dlaczego:hover .img-dlaczego-hover{display:block;}
+.dlaczego:hover .img-dlaczego{display:none}
+.kd-service.kdleft span {
+    float: left;
+}
+header.header-2 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0.89+0,0.48+100;Neutral+Density */
+background: -moz-linear-gradient(left,  rgba(0,0,0,0.89) 0%, rgba(0,0,0,0.48) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.89)), color-stop(100%,rgba(0,0,0,0.48))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0.89) 0%,rgba(0,0,0,0.48) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(0,0,0,0.89) 0%,rgba(0,0,0,0.48) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(0,0,0,0.89) 0%,rgba(0,0,0,0.48) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(0,0,0,0.89) 0%,rgba(0,0,0,0.48) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3000000', endColorstr='#7a000000',GradientType=1 ); /* IE6-9 */
+
+    }
+#mainbanner{opacity:0;
+-webkit-transition: opacity 0.4s; /* Safari */
+    transition: opacity 0.4s;
+    text-align:center; 
+    position:relative;
+    background: url('images/gradient-blue.png') bottom no-repeat !important;
+    background-size: 100% 100px !important;
+    }
+/*
+- w sliderze
+.banner-slogan{     
+padding:100px 0px 50px;font-size:80px !important;line-height:80px !important;margin:80px auto 20px auto;   
+text-shadow: 1px 1px 2px #363636; color:#fefefe;text-align:center;text-transform:uppercase; font-weight:bold;
+} 
+*/
+.banner-slogan{     
+padding:40px 0px 20px;font-size:80px !important;line-height:80px !important;margin:80px auto 20px auto;   
+text-shadow: 1px 1px 2px #363636; color:#fefefe;text-align:center;text-transform:uppercase; font-weight:bold;
+} 
+ 
+ #fancybox-title {
+ 	
+ 	display: none !important;
+ }
+ 
+#mainbanner .slogan2{
+/*
+background:#00a3d3 !important;
+*/
+text-shadow: 1px 1px 2px #363636; color:#fefefe;
+font-weight:bold;
+font-size:50px; 
+text-transform:none !important;
+color:#fff;
+width:100%;
+text-align:center;
+/*
+position:absolute;
+bottom:0px;
+*/
+}   
+.sepratore{width:80%;margin-bottom:0px;}
+.linksection {
+    padding: 10px 0px 0px 0px;
+}
+.linksection-mobile{display:none}
+#about-us-sec{
+background: url('images/gradient-blue.png') !important;
+-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    padding:70px 0px !important;
+    
+}
+.logo {
+    margin: 17px 0px 12px 0px;
+}
+
+    
+.linksection .chlodn-banner, .linksection .klimat-banner{
+height:200px;
+position:relative;z-index:1201;opacity:0;
+-webkit-transition: opacity 0.8s; /* Safari */
+    transition: opacity 0.8s;
+    }
+#mainbanner .transparent{opacity:0;}  
+#mainbanner .linksection .chlodn-banner{width:27%;}
+#mainbanner .linksection .klimat-banner{width:27%;}
+#mainbanner .linksection .chlodn-banner img{width:100%;height:100%;z-index:1000;position:absolute;top:0px;} 
+#mainbanner .linksection .klimat-banner img{width:100%;height:100%;z-index:1000;position:absolute;top:0px;}
+
+#mainbanner .linksection .klimat-banner .gradient,#mainbanner .linksection .chlodn-banner .gradient{
+	background:#000;opacity:0;display:block;position:absolute;top:0px;left:0px;width:100%;height:100%;
+	-webkit-transition: opacity 0.5s; /* Safari */
+    transition: opacity 0.5s;
+    z-index:1100;
+}
+#mainbanner .linksection .klimat-banner:hover .gradient,#mainbanner .linksection .chlodn-banner:hover .gradient{opacity:0.5;}
+ 
+    
+
+
+/*
+.chlodn-banner:hover{background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/chlodn.jpg');}
+.klimat-banner:hover{background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/klimat.jpg');}
+*/
+/*
+.linksection .klimat-banner span.banner-link, .linksection .chlodn-banner span.banner-link{
+	position:relative;
+	opacity:0;font-size:33px;width:450px;height:100px;line-height:100px;
+	margin-top:250px;display:block;
+	z-index:1001;
+	-webkit-transition: opacity 0.5s; 
+    transition: opacity 0.5s;
+}
+*/
+ 
+#mainbanner .linksection .klimat-banner span.banner-link, #mainbanner .linksection .chlodn-banner span.banner-link{
+	position:relative;
+	opacity:0;font-size:20px;  
+	bottom:0px;display:block; 
+	z-index:2201;
+	-webkit-transition: opacity 0.5s; /* Safari */
+    transition: opacity 0.5s;
+   
+}
+#mainbanner .linksection .klimat-banner:hover .banner-link, #mainbanner .linksection .chlodn-banner:hover .banner-link{opacity:1;}
+
+
+.chlodn-banner span.banner-link{
+background:#55b0cb;
+}
+.klimat-banner span.banner-link{
+background:#00a3d3;
+}
+
+/*
+slogan w sliderze
+.eccaption {
+    left: 0px;
+    top:340px;  
+     
+}
+*/
+.eccaption {
+    left: 0px;
+    top:20px;    
+}
+.linksection a {
+    padding: 0px;
+}
+
+.linksection-mobile .chlodn-banner span,.linksection-mobile .klimat-banner span{
+	opacity:1 !important;
+}
+
+.linksection-mobile .klimat-banner span.banner-link, .linksection-mobile .chlodn-banner span.banner-link{
+	position:relative;
+	font-size:33px;padding:10px 20px;
+	margin-top:200px !important;color:#fff;   
+	z-index:1001;
+	width:100%;
+}
+ 
+
+/*#mainbanner .bx-wrapper, #mainbanner .bx-viewport, .bx-wrapper img {height: 850px;}*/ 
+/*
+.bx-prev, .bx-next{cursor:pointer;}
+
+.bx-wrapper .bx-pager.bx-default-pager a{
+	height:20px;width:20px; background:#fff;margin:15px;border-radius:10px;
+}
+*/
+.bx-wrapper .bx-controls-direction {
+	width:94%;
+	position:absolute;
+	top: 250px;   
+	left:3%; 
+}
+#mainbanner .bx-pager {
+    display: block;
+}
+
+#mainbanner ul li:before {
+    background-color: rgba(0,0,0,0);
+}
+
+
+.gallery-item {
+ 
+ float: left;
+
+}
+
+/*==// ThemeColor's //==*/
+
+.thcolor,.thcolorhover:hover,.navigation ul .sub-dropdown > li:hover.parentIcon:before,.kd-services h5,.kd-service:hover h2,.kdnews:hover h2 a,.kdblog:hover h2 a,.kdcroud:hover h5 a,.recentpost-widget li:hover h6 a,.kdevent:hover h2 a,.kdnews-vtwo:hover h2 a,.kd-service i,
+.kdnews-vtwo:hover h4 a,.kdcroud .kd-readmore,.heading-style3 h2 span,.heading-style4 h2 span,.kd-404 h1, .kd-modrenview i, #respond form input[type="text"]:focus, #respond form p textarea:focus, .widget input[type="text"]:focus, .widget textarea:focus {
+  color: #00a3d3 !important;
+}
+
+.thbg-color,.thbg-colorhover:hover,footer .socialnetwork ul li a:hover,.event-detail .socialnetwork li a:hover,
+.kdnews-vtwo figure figcaption:before,.kd-team .socialnetwork li a:hover,.kd-mainthumb .socialnetwork li a:hover,.news-box .text .date,
+.kddetail-post .socialnetwork ul li:hover a,.nextprev-post ul li:hover .inner-post,.pagination ul li a:hover,.pagination ul li.active a,
+#respond form p input[type="submit"],.navigation ul li .sub-dropdown > li:hover > a,.navigation ul > li:hover > a,.kdcroud.compact a.kd-readmore:hover,.topbaar,.progress-bar,.funding-info,.item_tab li a.active,#banner-1 .caption a.donate-btn,.theme-bg, .kdnews:hover figure figcaption i, .portfolio-list:hover .kd-text, .about-auther .socialnetwork ul li a:hover, .kd-team-2 .socialnetwork ul li a:hover, .team-detail .socialnetwork ul li a:hover {
+  background-color: #00a3d3 !important;
+}
+
+.th-bordercolor,.th-bordercolorhover:hover,.sub-dropdown,.page-sidebar .widget-title h2:before,.event-detail .socialnetwork li a:hover,
+#clock-ticker .flip-top,.wrap-title h1, .kd-modrenview i, .widget input[type="text"]:focus, .widget textarea:focus {
+  border-color: #00a3d3 !important;
+}
+
+.kd-service:hover i {
+	box-shadow: 0px 0px 0px 50px #00a3d3 inset !important;
+}
+/*end*/
+
+
+/*contact*/
+.welcome-theme-section {
+    float: left;
+    width: 100%;
+    background: url(../images/welcome-theme.html) no-repeat top center;
+    padding: 68px 0;
+    position: relative;
+    z-index: 11;
+}
+.welcome-theme-section:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00a3d3; 
+    z-index: -1;
+}
+.welcome-holder {
+    float: left;
+    width: 100%;
+    padding: 0 75px;
+}
+.welcome-holder h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: #fff;
+    margin: 0 0 10px; 
+}
+.welcome-holder strong {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #fff;
+    display: block;
+}
+.welcome-holder a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #fff;
+    display: block;
+}
+
+
+
+@media (max-width:1300px) {
+	
+	
+	.sepratore{width:80%;margin-bottom:20px;}
+	.eccaption h3{font-size:35px;}
+	.eccaption h4{font-size:35px;}
+	#mainbanner .slogan2{font-size:25px}
+	
+	
+	#mainbanner .linksection .chlodn-banner{width:38%;}
+	#mainbanner .linksection .klimat-banner{width:38%;}
+}
+
+@media (max-width:1200px) {
+.banner-slogan{ 
+	font-size:65px !important;line-height:70px !important;
+	}
+	
+	
+	
+	.eccaption h3{font-size:41px;} 
+	.eccaption h4{font-size:41px;}
+	
+	#mainbanner .linksection .chlodn-banner{width:40%;}
+	#mainbanner .linksection .klimat-banner{width:40%;}
+}
+@media (max-width:996px) {
+	.banner-slogan{      
+	padding:20px 0px 10px;
+	font-size:50px !important;line-height:50px !important;
+	}
+	.eccaption {
+    top:10px; 
+    }
+	.eccaption h3{font-size:35px;}
+	.eccaption h4{font-size:25px;}
+	#about-us-sec{padding:10px 0px !important;bottom:0px;}
+}
+@media (max-width:960px) {
+	#mainbanner .slogan2{
+		display:none;
+	}
+	
+	
+	header.header-2 .logo {
+		width: 40%;
+	}
+
+	.bx-controls{display:none}
+	
+	.klimat-banner span.banner-link, .chlodn-banner span.banner-link{
+	font-size:14px;height:30px;line-height:30px;margin-top:140px;
+	opacity:1 !important;
+	}
+
+	
+}
+@media (max-width:767px) {
+	header.header-2 .navbar-default .navbar-nav > li > a {
+    color: #333;
+    }
+}
+    
+@media (max-width:650px) { /**/
+
+  
+	
+	header.header-2 .logo {
+    width: 40%;
+}
+	.banner-slogan{
+		font-size:20px !important;line-height:20px !important;
+	}
+	
+	#mainbanner{background:none !important;}
+	
+}
+@media (max-width:450px) { /**/
+	
+	
+}
+@media (max-width: 400px){
+	
+	.eccaption {
+		display: block ;
+	}
+	
+	.sepratore{display:none;}
+}
+
